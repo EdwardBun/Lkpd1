@@ -1,0 +1,40 @@
+.eyes {
+    border: 2px black solid;
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 2%;
+    margin: 50px;
+    margin-left: 350px;
+}
+
+.Comment {
+    border: 2px black solid;
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 2%;
+    margin: 50px;
+    margin-left: 780px;
+}
+
+.like {
+    border: 2px black solid;
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 2%;
+    margin: 50px;
+    margin-left: 350px;
+}
+
+.tulis {
+    text-align: center;
+    padding-top: 5px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin-left: 650px;
+}
