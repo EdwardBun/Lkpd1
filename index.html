@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>No 1</h3>
+    <table>
+        <tr class = "judul">
+            <th>No</th>
+            <th>Keterangan</th>
+            <th>Bersedia Membayar</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Bersedia membayar Dana Sumbangan Pembangunan (DSP) Sebesar Rp6.500.000 dengan mekanisme pembayaran Dana Sumbangan Pendidikan</th>
+            <th><input type="radio" />Lunas Saat Daftar Ulang<br/>
+                <input type="radio" />60% dibayarkan saat daftar Ulang, dan sisanya dibayarkan paling lambat tanggal 20 Agusutus 2024<br/>
+            </th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Bersedia membayar Sumbangan Penyelenggaran Pendidikan (SPP) secara rutin setiap bulan sebesar Rp550.000</th>
+            <th><input type="checkbox"></th>
+        </tr>
+        <tr>
+            <th rowspan="2">3</th>
+            <th>Pembayaran Lainnya :
+                Setelah Putra/Putri kami diterima di SMK Wikrama Bogor kami juga bersedia memberikan: </br></br>
+                A.Wakaf Pembangunan Mesjid</br></br>
+            </th>
+            <th><input type="radio" />Rp300.000<br/>
+                <input type="radio" />Rp500.000<br/>
+                <input type="radio" />Rp1.000.000<br/>
+                <input type="radio" />Rp2.000.000<br/>
+                <input type="radio" />Rp5.000.000<br/>
+                <input type="radio" />>Rp5.000.000<br/>
+            </th>
+        </tr>
+        <tr>
+            <th>B.Zakat Infaq dan Sodaqoh setiap Bulan</th>
+            <th>
+                <form>
+                    <input type="text" class="form"><br>
+                </form>
+            </th>
+        </tr>
+    </table><br>
+
+    <h3>No 2</h3>
+    <a href="home.html">Home</a><br>
+
+    <h3>No 3</h3>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    <br>
+
+    <h3>No 4</h3>
+    <img id="Gambar1" src="Bunga1.jpg" > 
+    <img id="Gambar2" src="Bunga3.jpg"  >
+    <img id="Gambar3" src="Pemandangan.jpg" ><br>
+
+    <select id="pilihgambar">
+        <option value="Gambar1">Gambar 1</option>
+        <option value="Gambar2">Gambar 2</option>
+        <option value="Gambar3">Gambar 3</option>
+    </select>
+
+    <select id="pilihopacity"> 
+        <option value="1">1</option>
+        <option value="0.5">0.5</option>
+        <option value="0.2">0.2</option>
+    </select>
+
+    <button onclick="ganti()">Kirim</button>
+    <br>
+
+    <h3>No 5</h3>
+    <button type="button" class="alert" onclick="waktu()">Munculkan Alert</button>
+    <p id="demo" class="test"></p>
+    <br>
+
+    <h3>No 6</h3>
+    <form>
+        <input type="text" id="nama">
+        <button type="button" onclick="kirim()">Kirim</button><br>
+        <p id="hasil">Tidak mencari data...</p>
+    </form>
+    <br>
+
+</body>
+</html>
